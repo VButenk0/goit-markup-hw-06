@@ -2,7 +2,7 @@ document
   .querySelector('[name="order_form"]')
   .addEventListener('submit', event => {
     event.preventDefault();
-    const { user_name, user_email } = event.target.elements;
+    const { user_name, user_phone, user_email } = event.target.elements;
 
       console.log('User name: ', user_name.value);
       console.log('User phone: ', user_phone.value);
