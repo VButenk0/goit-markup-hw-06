@@ -288,13 +288,11 @@ svg {
 
 @media only screen and (min-width: 768px) {
   .hero-section {
-    height: 436px;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .hero-section {
-    height: 600px;
   }
 }
 
@@ -337,8 +335,8 @@ svg {
 }
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
   .hero-div {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -348,6 +346,8 @@ svg {
 }
 @media only screen and (min-width: 1158px) {
   .hero-div {
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -419,6 +419,7 @@ svg {
 
 .benefits-section {
   padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 @media only screen and (min-width: 1158px) {
@@ -508,6 +509,7 @@ svg {
 /* Products */
 
 .products-section {
+  padding-top: 0;
   padding-bottom: 120px;
 }
 
