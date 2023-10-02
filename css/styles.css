@@ -1222,7 +1222,7 @@ svg {
   letter-spacing: 0.02em;
 }
 
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 427px) {
   .modal-caption {
     width: 100%;
   }
